@@ -9,7 +9,6 @@ local Character = script.Parent
 local Humanoid = Character:WaitForChild("Humanoid")
 
 --------------------------------------------------------------------------------
-print("Hello, rojo!")
 
 while true do
 	while Humanoid.Health < Humanoid.MaxHealth and Humanoid.Health > 0 and Humanoid:GetState() ~= Enum.HumanoidStateType.Dead do
